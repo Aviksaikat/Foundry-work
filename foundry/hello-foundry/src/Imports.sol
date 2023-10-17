@@ -2,7 +2,7 @@
 pragma solidity ^0.8.19;
 
 import "solmate/tokens/ERC20.sol";
-import "@openzepplin/contracts/access/Ownable.sol";
+import "@openzeppelin/contracts/access/Ownable.sol";
 
 contract Token is ERC20("name", "symbol", 18) {}
 
